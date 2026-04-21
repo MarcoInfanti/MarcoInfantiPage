@@ -1,0 +1,124 @@
+{
+  "NAV": {
+    "ARIA": "Section navigation",
+    "HERO": "Home",
+    "ABOUT": "About",
+    "EXPERIENCE": "Experience",
+    "SKILLS": "Skills",
+    "EDUCATION": "Education",
+    "CERTIFICATIONS": "Certifications",
+    "CONTACT": "Contact",
+    "MAIN_ARIA": "Portfolio main content"
+  },
+  "HERO": {
+    "TITLE": "Computer Engineer - U.C.A.B",
+    "BIO": "Front-End Angular developer specialised in MEAN stack applications.",
+    "CTA": "Contact me",
+    "CTA_ARIA": "Go to contact section",
+    "SCROLL_ARIA": "Go to About"
+  },
+  "ABOUT": {
+    "HEADING": "About me",
+    "BIO": "I'm a Computer Engineer (equivalence obtained in Spain) with experience as a MEAN stack developer. I also have broad knowledge of relational databases.",
+    "INFO_ARIA": "Personal information",
+    "LANGUAGES_HEADING": "Languages",
+    "LANGUAGES_ARIA": "Languages",
+    "INFO_NATIONALITY": "Nationality",
+    "INFO_EMAIL": "Email",
+    "INFO_LOCATION": "Location",
+    "VALUE_NATIONALITY": "Spanish",
+    "LANG_SPANISH": "Spanish",
+    "LANG_ENGLISH": "English",
+    "LANG_GERMAN": "German",
+    "LEVEL_NATIVE": "Native",
+    "LEVEL_INTERMEDIATE": "Intermediate",
+    "LEVEL_LEARNING": "Learning"
+  },
+  "EXPERIENCE": {
+    "HEADING": "Experience",
+    "ARIA": "Work experience timeline",
+    "0": {
+      "ROLE": "Front-End Developer",
+      "COMPANY": "Mnemo Evolution & Integration Services",
+      "PERIOD": "May 2023 - Present",
+      "DESCRIPTION": "Web application development with Angular and RESTful services."
+    },
+    "1": {
+      "ROLE": "Front-End Developer",
+      "COMPANY": "The Next Flow",
+      "PERIOD": "January 2023 - April 2023",
+      "DESCRIPTION": "Angular interface development and RESTful service integration."
+    },
+    "2": {
+      "ROLE": "Development Analyst",
+      "COMPANY": "UCAB IT Department",
+      "PERIOD": "March 2022 - November 2022",
+      "DESCRIPTION": "Front-end development with Angular and integration with RESTful services."
+    },
+    "3": {
+      "ROLE": "Front-End Developer",
+      "COMPANY": "World Cloud Services LLC",
+      "PERIOD": "May 2021 - March 2022",
+      "DESCRIPTION": "Web application development with Angular and RESTful services."
+    },
+    "4": {
+      "ROLE": "Database Analyst",
+      "COMPANY": "UCAB IT Department",
+      "PERIOD": "January 2018 - August 2019",
+      "DESCRIPTION": "SQL scripting, user management and permission administration on relational databases."
+    }
+  },
+  "SKILLS": {
+    "HEADING": "Skills",
+    "GROUP_LANGUAGES": "Languages",
+    "GROUP_FRAMEWORKS": "Frameworks & IDE",
+    "GROUP_DATABASES": "Databases",
+    "LEVEL_SENIOR": "Senior",
+    "LEVEL_SEMI_SENIOR": "Semi-senior",
+    "LEVEL_JUNIOR": "Junior"
+  },
+  "EDUCATION": {
+    "HEADING": "Education",
+    "0": {
+      "INSTITUTION": "Universidad Católica Andrés Bello U.C.A.B",
+      "DEGREE": "Computer Engineer",
+      "PERIOD": "Oct 2013 - 2021",
+      "NOTE": "Equivalence obtained in Spain"
+    },
+    "1": {
+      "INSTITUTION": "U.E Colegio Santo Tomás de Aquino",
+      "DEGREE": "Bachelor of Science",
+      "PERIOD": "1999 - 2012"
+    }
+  },
+  "CERTIFICATIONS": {
+    "HEADING": "Certifications",
+    "0": { "TITLE": "AI Systems Training", "ISSUER": "Mainjobs", "DATE": "Apr. 2025" },
+    "1": { "TITLE": "Algorithm Modelling for AI (Machine Learning)", "ISSUER": "Mainjobs", "DATE": "Mar. 2025" },
+    "2": { "TITLE": "Big Data Tools and Data Governance", "ISSUER": "Mainjobs", "DATE": "Oct. 2024" },
+    "3": { "TITLE": "Business Intelligence with Excel", "ISSUER": "Mainjobs", "DATE": "Jul. 2024" },
+    "4": { "TITLE": "TypeScript: Your Complete Guide and User Manual", "ISSUER": "Udemy", "DATE": "Nov. 2023" },
+    "5": { "TITLE": "Angular Course", "ISSUER": "Udemy", "DATE": "Oct. 2022" }
+  },
+  "CONTACT": {
+    "HEADING": "Contact",
+    "INTRO": "Want to work with me? Drop me a line.",
+    "CONTACTS_ARIA": "Contact channels",
+    "SOCIAL_ARIA": "Social networks",
+    "EMAIL_ARIA_PREFIX": "Send email to"
+  },
+  "CV": {
+    "DOWNLOAD": "Download CV",
+    "DOWNLOAD_ARIA": "Download CV as PDF"
+  },
+  "LANG_TOGGLE": {
+    "LABEL": "Change language",
+    "EN": "English",
+    "ES": "Español"
+  },
+  "PERSONAL": {
+    "TITLE": "Computer Engineer - U.C.A.B",
+    "BIO": "I'm a Computer Engineer (equivalence obtained in Spain) with experience as a MEAN stack developer. I also have broad knowledge of relational databases.",
+    "NATIONALITY": "Spanish"
+  }
+}

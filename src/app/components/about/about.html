@@ -1,0 +1,43 @@
+<h2 class="section__title" data-testid="about-title">{{ 'ABOUT.HEADING' | translate }}</h2>
+
+<div class="about__grid">
+  <!-- Bio -->
+  <div class="about__bio-col">
+    <p class="about__bio" data-testid="about-bio">{{ personal.bio | translate }}</p>
+
+    <ul class="info-list" [attr.aria-label]="'ABOUT.INFO_ARIA' | translate" data-testid="about-info-list">
+      @for (row of infoRows; track row.labelKey) {
+        <li class="info-list__item" [attr.data-testid]="'about-info-' + row.labelKey.toLowerCase()">
+          <span class="info-list__label">{{ row.labelKey | translate }}</span>
+          <span class="info-list__value">
+            @if (row.isKey && row.valueKey) { {{ row.valueKey | translate }} } @else { {{ row.value }} }
+          </span>
+        </li>
+      }
+    </ul>
+  </div>
+
+  <!-- Languages -->
+  <div class="about__lang-col">
+    <h3 class="about__lang-heading">{{ 'ABOUT.LANGUAGES_HEADING' | translate }}</h3>
+    <ul class="lang-list" [attr.aria-label]="'ABOUT.LANGUAGES_ARIA' | translate" data-testid="about-lang-list">
+      @for (lang of languages; track lang.name) {
+        <li class="lang-list__item" [attr.data-testid]="'about-lang-' + lang.name.toLowerCase()">
+          <div class="lang-list__info">
+            <span class="lang-list__name">{{ lang.name | translate }}</span>
+            <span class="lang-level">{{ levelKeyFor(lang.level) | translate }}</span>
+          </div>
+          <div class="lang-dots" [attr.aria-label]="levelKeyFor(lang.level) | translate" role="img">
+            @for (dot of [1, 2, 3]; track dot) {
+              <span
+                class="lang-dot"
+                [class.lang-dot--filled]="dot <= levelDots(lang.level)"
+                aria-hidden="true"
+              ></span>
+            }
+          </div>
+        </li>
+      }
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,56 @@
+:host {
+  position: fixed;
+  bottom: clamp(0.75rem, 2vw, 1.5rem);
+  right: clamp(0.75rem, 2vw, 1.5rem);
+  z-index: 20;
+}
+
+.cv-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.1rem;
+  border: 1px solid var(--color-accent, #7B2FBE);
+  border-radius: 999px;
+  background: var(--color-accent, #7B2FBE);
+  color: #F5F3FA;
+  font-weight: 600;
+  font-size: 0.85rem;
+  cursor: pointer;
+  box-shadow: 0 6px 18px rgba(123, 47, 190, 0.35);
+  transition: transform 120ms ease, box-shadow 120ms ease, background 120ms ease;
+
+  &:hover,
+  &:focus-visible {
+    transform: translateY(-1px);
+    background: var(--color-accent-light, #9a52d9);
+    box-shadow: 0 8px 22px rgba(123, 47, 190, 0.5);
+    outline: none;
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--color-accent-light, #9a52d9);
+    outline-offset: 3px;
+  }
+}
+
+.cv-download__icon {
+  flex-shrink: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cv-download {
+    transition: none;
+
+    &:hover,
+    &:focus-visible {
+      transform: none;
+    }
+  }
+}
+
+@media print {
+  :host {
+    display: none !important;
+  }
+}

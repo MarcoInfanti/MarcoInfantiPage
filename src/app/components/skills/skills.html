@@ -1,0 +1,30 @@
+<h2 class="section__title" data-testid="skills-title">{{ 'SKILLS.HEADING' | translate }}</h2>
+
+<div class="skills-grid" data-testid="skills-grid">
+  @for (group of skillGroups; track group.title) {
+    <div class="skills-card" [attr.data-testid]="'skills-group-' + group.title">
+      <h3 class="skills-card__title">{{ group.title | translate }}</h3>
+      <ul class="skill-chip-list" [attr.aria-label]="group.title | translate">
+        @for (item of group.items; track item.name) {
+          <li
+            class="skill-chip"
+            [attr.data-testid]="'skills-chip-' + item.name.toLowerCase().replace(' ', '-')"
+          >
+          @if(item.image) {
+            <img [src]="item.image" [alt]="item.name + ' logo'" class="skill-chip__image">
+          }
+            <span class="skill-chip__name">{{ item.name }}</span>
+            @if (item.level !== 'N/A' && item.levelKey) {
+              <span
+                class="chip__level"
+                [class.chip__level--senior]="item.level === 'Senior'"
+                [class.chip__level--mid]="item.level === 'Semi-senior'"
+                [class.chip__level--junior]="item.level === 'Junior'"
+              >{{ item.levelKey | translate }}</span>
+            }
+          </li>
+        }
+      </ul>
+    </div>
+  }
+</div>

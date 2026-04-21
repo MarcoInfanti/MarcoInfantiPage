@@ -1,0 +1,19 @@
+<h2 class="section__title" data-testid="experience-title">{{ 'EXPERIENCE.HEADING' | translate }}</h2>
+
+<div class="timeline-scroller" data-testid="experience-timeline-scroller">
+  <ol class="timeline" [attr.aria-label]="'EXPERIENCE.ARIA' | translate" data-testid="experience-timeline">
+    @for (exp of experiences; track exp.role) {
+      <li class="timeline__item" [attr.data-testid]="'experience-item-' + $index">
+        <div class="timeline__dot" aria-hidden="true"></div>
+        <div class="timeline__content">
+          <h3 class="timeline__role">{{ exp.role | translate }}</h3>
+          <p class="timeline__company">{{ exp.company | translate }}</p>
+          <p class="timeline__period">
+            <time>{{ exp.period | translate }}</time>
+          </p>
+          <p class="timeline__description">{{ exp.description | translate }}</p>
+        </div>
+      </li>
+    }
+  </ol>
+</div>

@@ -1,0 +1,51 @@
+<div class="hero__inner" data-testid="hero-inner">
+  <div class="hero__info">
+    <div class="hero__photo" aria-hidden="true">
+    <span class="hero__initials">{{personal.initials}}</span>
+  </div>
+
+  <div class="hero__content">
+    <h1 class="hero__name" data-testid="hero-name">{{ personal.fullName }}</h1>
+    <p class="hero__title" data-testid="hero-title">{{ personal.title | translate }}</p>
+    <p class="hero__bio" data-testid="hero-bio">
+      {{ personal.description | translate }}
+    </p>
+    <a
+      class="hero__cta"
+      href="#contact"
+      data-testid="hero-cta"
+      [attr.aria-label]="'HERO.CTA_ARIA' | translate"
+    >
+      {{ 'HERO.CTA' | translate }}
+    </a>
+  </div>
+  </div>
+  <div class="hero__stack">
+    @for (item of stack; track item.name) {
+      <img [class]="'hero__stack__image__'+item.code" [src]="item.image" [alt]="item.name">
+    }
+  </div>
+</div>
+
+<a
+  class="hero__scroll"
+  href="#about"
+  data-testid="hero-scroll"
+  [attr.aria-label]="'HERO.SCROLL_ARIA' | translate"
+>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="24"
+    height="24"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    aria-hidden="true"
+    focusable="false"
+  >
+    <polyline points="6 9 12 15 18 9" />
+  </svg>
+</a>

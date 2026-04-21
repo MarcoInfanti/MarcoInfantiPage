@@ -1,0 +1,16 @@
+<h2 class="section__title" data-testid="certifications-title">{{ 'CERTIFICATIONS.HEADING' | translate }}</h2>
+
+<div class="cert-grid" data-testid="certifications-grid">
+  @for (cert of certifications; track cert.title) {
+    <article
+      class="cert-card"
+      [attr.data-testid]="'certifications-card-' + $index"
+    >
+      <h3 class="cert-card__title">{{ cert.title | translate }}</h3>
+      <p class="cert-card__issuer">{{ cert.issuer | translate }}</p>
+      <span class="cert-card__date" [attr.data-testid]="'certifications-date-' + $index">
+        {{ cert.date | translate }}
+      </span>
+    </article>
+  }
+</div>

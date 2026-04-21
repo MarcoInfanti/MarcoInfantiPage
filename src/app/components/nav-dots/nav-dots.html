@@ -1,0 +1,15 @@
+<ul class="nav-dots" data-testid="nav-dots-list">
+  @for (section of sections; track section.id) {
+    <li>
+      <a
+        [href]="'#' + section.id"
+        [class.is-active]="activeId() === section.id"
+        [attr.aria-label]="section.label | translate"
+        [attr.aria-current]="activeId() === section.id ? 'true' : null"
+        [attr.data-testid]="'nav-dot-' + section.id"
+      >
+        <span class="nav-dots__tooltip" aria-hidden="true">{{ section.label | translate }}</span>
+      </a>
+    </li>
+  }
+</ul>

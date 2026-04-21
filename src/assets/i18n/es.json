@@ -1,0 +1,124 @@
+{
+  "NAV": {
+    "ARIA": "Navegación de secciones",
+    "HERO": "Inicio",
+    "ABOUT": "Sobre mí",
+    "EXPERIENCE": "Experiencia",
+    "SKILLS": "Habilidades",
+    "EDUCATION": "Educación",
+    "CERTIFICATIONS": "Certificaciones",
+    "CONTACT": "Contacto",
+    "MAIN_ARIA": "Contenido principal del portfolio"
+  },
+  "HERO": {
+    "TITLE": "Ingeniero en Informática - U.C.A.B",
+    "BIO": "Desarrollador Front-End Angular especializado en aplicaciones MEAN stack.",
+    "CTA": "Contáctame",
+    "CTA_ARIA": "Ir a la sección de contacto",
+    "SCROLL_ARIA": "Ir a Sobre mí"
+  },
+  "ABOUT": {
+    "HEADING": "Sobre mí",
+    "BIO": "Soy ingeniero en Informática (Equivalencia en España) con experiencia como desarrollador MEAN stack. También poseo amplios conocimientos en bases de datos relacionales.",
+    "INFO_ARIA": "Información personal",
+    "LANGUAGES_HEADING": "Idiomas",
+    "LANGUAGES_ARIA": "Idiomas",
+    "INFO_NATIONALITY": "Nacionalidad",
+    "INFO_EMAIL": "Email",
+    "INFO_LOCATION": "Ubicación",
+    "VALUE_NATIONALITY": "Español",
+    "LANG_SPANISH": "Español",
+    "LANG_ENGLISH": "Inglés",
+    "LANG_GERMAN": "Alemán",
+    "LEVEL_NATIVE": "Nativo",
+    "LEVEL_INTERMEDIATE": "Medio",
+    "LEVEL_LEARNING": "Estudiando"
+  },
+  "EXPERIENCE": {
+    "HEADING": "Experiencia",
+    "ARIA": "Historial de experiencia laboral",
+    "0": {
+      "ROLE": "Desarrollador Front-End",
+      "COMPANY": "Mnemo Evolution & Integration Services",
+      "PERIOD": "Mayo 2023 - Presente",
+      "DESCRIPTION": "Desarrollo de aplicaciones web con Angular y servicios RESTful."
+    },
+    "1": {
+      "ROLE": "Desarrollador Front-End",
+      "COMPANY": "The Next Flow",
+      "PERIOD": "Enero 2023 - Abril 2023",
+      "DESCRIPTION": "Desarrollo de interfaces con Angular y consumo de servicios RESTful."
+    },
+    "2": {
+      "ROLE": "Analista de Desarrollo",
+      "COMPANY": "Dir. Tecnología e Información UCAB",
+      "PERIOD": "Marzo 2022 - Noviembre 2022",
+      "DESCRIPTION": "Desarrollo front-end con Angular e integración con servicios RESTful."
+    },
+    "3": {
+      "ROLE": "Desarrollador Front-End",
+      "COMPANY": "World Cloud Services LLC",
+      "PERIOD": "Mayo 2021 - Marzo 2022",
+      "DESCRIPTION": "Desarrollo de aplicaciones web con Angular y servicios RESTful."
+    },
+    "4": {
+      "ROLE": "Analista de Base de Datos",
+      "COMPANY": "Dir. Tecnología e Información UCAB",
+      "PERIOD": "Enero 2018 - Agosto 2019",
+      "DESCRIPTION": "Creación de scripts SQL, gestión de usuarios y administración de permisos en bases de datos relacionales."
+    }
+  },
+  "SKILLS": {
+    "HEADING": "Habilidades",
+    "GROUP_LANGUAGES": "Lenguajes",
+    "GROUP_FRAMEWORKS": "Frameworks e IDE",
+    "GROUP_DATABASES": "Bases de Datos",
+    "LEVEL_SENIOR": "Senior",
+    "LEVEL_SEMI_SENIOR": "Semi-senior",
+    "LEVEL_JUNIOR": "Junior"
+  },
+  "EDUCATION": {
+    "HEADING": "Educación",
+    "0": {
+      "INSTITUTION": "Universidad Católica Andrés Bello U.C.A.B",
+      "DEGREE": "Ingeniero en Informática",
+      "PERIOD": "Oct 2013 - 2021",
+      "NOTE": "Equivalencia obtenida en España"
+    },
+    "1": {
+      "INSTITUTION": "U.E Colegio Santo Tomás de Aquino",
+      "DEGREE": "Bachiller en Ciencias",
+      "PERIOD": "1999 - 2012"
+    }
+  },
+  "CERTIFICATIONS": {
+    "HEADING": "Certificaciones",
+    "0": { "TITLE": "Entrenamiento en Sistemas de IA", "ISSUER": "Mainjobs", "DATE": "Abr. 2025" },
+    "1": { "TITLE": "Modelización de Algoritmos para IA (Machine Learning)", "ISSUER": "Mainjobs", "DATE": "Mar. 2025" },
+    "2": { "TITLE": "Herramientas de Big Data y Gobierno del Dato", "ISSUER": "Mainjobs", "DATE": "Oct. 2024" },
+    "3": { "TITLE": "Business Intelligence con Excel", "ISSUER": "Mainjobs", "DATE": "Jul. 2024" },
+    "4": { "TITLE": "TypeScript: Tu Completa Guía y Manual de Usuario", "ISSUER": "Udemy", "DATE": "Nov. 2023" },
+    "5": { "TITLE": "Curso de Angular", "ISSUER": "Udemy", "DATE": "Oct. 2022" }
+  },
+  "CONTACT": {
+    "HEADING": "Contacto",
+    "INTRO": "¿Quieres trabajar conmigo? Escríbeme.",
+    "CONTACTS_ARIA": "Medios de contacto",
+    "SOCIAL_ARIA": "Redes sociales",
+    "EMAIL_ARIA_PREFIX": "Enviar email a"
+  },
+  "CV": {
+    "DOWNLOAD": "Descargar CV",
+    "DOWNLOAD_ARIA": "Descargar curriculum en PDF"
+  },
+  "LANG_TOGGLE": {
+    "LABEL": "Cambiar idioma",
+    "EN": "English",
+    "ES": "Español"
+  },
+  "PERSONAL": {
+    "TITLE": "Ingeniero en Informática - U.C.A.B",
+    "BIO": "Soy ingeniero en Informática (Equivalencia en España) con experiencia como desarrollador MEAN stack. También poseo amplios conocimientos en bases de datos relacionales.",
+    "NATIONALITY": "Español"
+  }
+}

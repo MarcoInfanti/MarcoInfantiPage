@@ -1,0 +1,21 @@
+<h2 class="section__title" data-testid="education-title">{{ 'EDUCATION.HEADING' | translate }}</h2>
+
+<div class="education-cards" data-testid="education-cards">
+  @for (edu of education; track edu.institution + edu.period) {
+    <article
+      class="edu-card"
+      [attr.data-testid]="'education-card-' + $index"
+    >
+      <h3 class="edu-card__institution">{{ edu.institution | translate }}</h3>
+      <p class="edu-card__degree"><strong>{{ edu.degree | translate }}</strong></p>
+      <p class="edu-card__period">
+        <time>{{ edu.period | translate }}</time>
+      </p>
+      @if (edu.note) {
+        <p class="edu-card__note card__note" [attr.data-testid]="'education-note-' + $index">
+          {{ edu.note | translate }}
+        </p>
+      }
+    </article>
+  }
+</div>

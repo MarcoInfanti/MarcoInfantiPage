@@ -21,7 +21,7 @@ yarn-error.log
 *.sublime-workspace
 
 # Visual Studio Code
-.vscode/*
+.vscode/
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
@@ -42,7 +42,6 @@ __screenshots__/
 # System files
 .DS_Store
 Thumbs.db
-
 
 # Claude
 .claude/

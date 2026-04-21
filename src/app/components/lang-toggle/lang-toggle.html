@@ -1,0 +1,19 @@
+<button
+  type="button"
+  class="lang-toggle"
+  [attr.aria-label]="'LANG_TOGGLE.LABEL' | translate"
+  (click)="onToggle()"
+  data-testid="lang-toggle-btn"
+>
+  <span
+    class="lang-toggle__code"
+    [class.is-active]="current() === 'es'"
+    aria-hidden="true"
+  >ES</span>
+  <span class="lang-toggle__separator" aria-hidden="true">/</span>
+  <span
+    class="lang-toggle__code"
+    [class.is-active]="current() === 'en'"
+    aria-hidden="true"
+  >EN</span>
+</button>
