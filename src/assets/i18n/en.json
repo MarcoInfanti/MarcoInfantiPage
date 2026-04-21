@@ -11,7 +11,7 @@
     "MAIN_ARIA": "Portfolio main content"
   },
   "HERO": {
-    "TITLE": "Computer Engineer - U.C.A.B",
+    "TITLE": "Computer Scientist - U.C.A.B",
     "BIO": "Front-End Angular developer specialised in MEAN stack applications.",
     "CTA": "Contact me",
     "CTA_ARIA": "Go to contact section",
@@ -19,7 +19,7 @@
   },
   "ABOUT": {
     "HEADING": "About me",
-    "BIO": "I'm a Computer Engineer (equivalence obtained in Spain) with experience as a MEAN stack developer. I also have broad knowledge of relational databases.",
+    "BIO": "I'm a Computer Scientist (equivalence obtained in Spain) with experience as a MEAN stack developer. I also have broad knowledge of relational databases.",
     "INFO_ARIA": "Personal information",
     "LANGUAGES_HEADING": "Languages",
     "LANGUAGES_ARIA": "Languages",
@@ -81,7 +81,7 @@
     "HEADING": "Education",
     "0": {
       "INSTITUTION": "Universidad Católica Andrés Bello U.C.A.B",
-      "DEGREE": "Computer Engineer",
+      "DEGREE": "Computer Scientist",
       "PERIOD": "Oct 2013 - 2021",
       "NOTE": "Equivalence obtained in Spain"
     },
@@ -117,8 +117,8 @@
     "ES": "Español"
   },
   "PERSONAL": {
-    "TITLE": "Computer Engineer - U.C.A.B",
-    "BIO": "I'm a Computer Engineer (equivalence obtained in Spain) with experience as a MEAN stack developer. I also have broad knowledge of relational databases.",
+    "TITLE": "Computer Scientist - U.C.A.B",
+    "BIO": "I'm a Computer Scientist (equivalence obtained in Spain) with experience as a MEAN stack developer. I also have broad knowledge of relational databases.",
     "NATIONALITY": "Spanish"
   }
 }
