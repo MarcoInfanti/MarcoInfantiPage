@@ -122,7 +122,7 @@
     "DEMO_TABLE_HEADING": "Demo de gestión de tablas",
     "DEMO_TABLE_SOURCE": "Datos proporcionados por PokéAPI",
     "DEMO_TABLE_EMPTY": "Sin datos que mostrar.",
-    "DEMO_TABLE_NAME_PLACEHOLDER": "Buscar por nombre…",
+    "DEMO_TABLE_NAME_PLACEHOLDER": "Nombre exacto (ej. pikachu)…",
     "DEMO_TABLE_TYPE_ALL": "Todos los tipos",
     "DEMO_TABLE_ERROR": "Error al cargar los datos. Inténtalo de nuevo.",
     "DEMO_TABLE_COL_ID": "#",
