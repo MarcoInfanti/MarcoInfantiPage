@@ -8,10 +8,11 @@
     "EDUCATION": "Education",
     "CERTIFICATIONS": "Certifications",
     "CONTACT": "Contact",
-    "MAIN_ARIA": "Portfolio main content"
+    "MAIN_ARIA": "Portfolio main content",
+    "BACK": "Back",
+    "BACK_ARIA": "Go back to profile"
   },
   "HERO": {
-    "TITLE": "Computer Engineer - U.C.A.B",
     "BIO": "Front-End Angular developer specialised in MEAN stack applications.",
     "CTA": "Contact me",
     "CTA_ARIA": "Go to contact section",
@@ -19,7 +20,6 @@
   },
   "ABOUT": {
     "HEADING": "About me",
-    "BIO": "I'm a Computer Engineer (equivalence obtained in Spain) with experience as a MEAN stack developer. I also have broad knowledge of relational databases.",
     "INFO_ARIA": "Personal information",
     "LANGUAGES_HEADING": "Languages",
     "LANGUAGES_ARIA": "Languages",
@@ -112,9 +112,27 @@
     "DOWNLOAD_ARIA": "Download CV as PDF"
   },
   "LANG_TOGGLE": {
-    "LABEL": "Change language",
-    "EN": "English",
-    "ES": "Español"
+    "LABEL": "Change language"
+  },
+  "SIDEBAR": {
+    "TOGGLE_OPEN_ARIA": "Open component demos",
+    "TOGGLE_CLOSE_ARIA": "Close component demos",
+    "HEADING": "Component Demos",
+    "DEMO_TABLE": "Tables management",
+    "DEMO_TABLE_HEADING": "Tables Management Demo",
+    "DEMO_TABLE_SOURCE": "Data provided by PokéAPI",
+    "DEMO_TABLE_EMPTY": "No data to display.",
+    "DEMO_TABLE_NAME_PLACEHOLDER": "Search by name…",
+    "DEMO_TABLE_TYPE_ALL": "All types",
+    "DEMO_TABLE_ERROR": "Failed to load data. Please try again.",
+    "DEMO_TABLE_COL_ID": "#",
+    "DEMO_TABLE_COL_NAME": "Name",
+    "DEMO_TABLE_COL_TYPE": "Type",
+    "DEMO_TABLE_COL_HEIGHT": "Height (m)",
+    "DEMO_TABLE_COL_WEIGHT": "Weight (kg)",
+    "DEMO_TABLE_PAGE_SIZE": "Rows per page:",
+    "DEMO_TABLE_PAGE_OF": "of",
+    "DEMO_TABLE_GOTO": "Go to page:"
   },
   "PERSONAL": {
     "TITLE": "Computer Engineer - U.C.A.B",

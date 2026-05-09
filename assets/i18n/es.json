@@ -8,10 +8,11 @@
     "EDUCATION": "Educación",
     "CERTIFICATIONS": "Certificaciones",
     "CONTACT": "Contacto",
-    "MAIN_ARIA": "Contenido principal del portfolio"
+    "MAIN_ARIA": "Contenido principal del portfolio",
+    "BACK": "Volver",
+    "BACK_ARIA": "Volver al perfil"
   },
   "HERO": {
-    "TITLE": "Ingeniero en Informática - U.C.A.B",
     "BIO": "Desarrollador Front-End Angular especializado en aplicaciones MEAN stack.",
     "CTA": "Contáctame",
     "CTA_ARIA": "Ir a la sección de contacto",
@@ -19,7 +20,6 @@
   },
   "ABOUT": {
     "HEADING": "Sobre mí",
-    "BIO": "Soy ingeniero en Informática (Equivalencia en España) con experiencia como desarrollador MEAN stack. También poseo amplios conocimientos en bases de datos relacionales.",
     "INFO_ARIA": "Información personal",
     "LANGUAGES_HEADING": "Idiomas",
     "LANGUAGES_ARIA": "Idiomas",
@@ -112,9 +112,27 @@
     "DOWNLOAD_ARIA": "Descargar curriculum en PDF"
   },
   "LANG_TOGGLE": {
-    "LABEL": "Cambiar idioma",
-    "EN": "English",
-    "ES": "Español"
+    "LABEL": "Cambiar idioma"
+  },
+  "SIDEBAR": {
+    "TOGGLE_OPEN_ARIA": "Abrir demos de componentes",
+    "TOGGLE_CLOSE_ARIA": "Cerrar demos de componentes",
+    "HEADING": "Demos de componentes",
+    "DEMO_TABLE": "Gestión de tablas",
+    "DEMO_TABLE_HEADING": "Demo de gestión de tablas",
+    "DEMO_TABLE_SOURCE": "Datos proporcionados por PokéAPI",
+    "DEMO_TABLE_EMPTY": "Sin datos que mostrar.",
+    "DEMO_TABLE_NAME_PLACEHOLDER": "Buscar por nombre…",
+    "DEMO_TABLE_TYPE_ALL": "Todos los tipos",
+    "DEMO_TABLE_ERROR": "Error al cargar los datos. Inténtalo de nuevo.",
+    "DEMO_TABLE_COL_ID": "#",
+    "DEMO_TABLE_COL_NAME": "Nombre",
+    "DEMO_TABLE_COL_TYPE": "Tipo",
+    "DEMO_TABLE_COL_HEIGHT": "Altura (m)",
+    "DEMO_TABLE_COL_WEIGHT": "Peso (kg)",
+    "DEMO_TABLE_PAGE_SIZE": "Filas por página:",
+    "DEMO_TABLE_PAGE_OF": "de",
+    "DEMO_TABLE_GOTO": "Ir a página:"
   },
   "PERSONAL": {
     "TITLE": "Ingeniero en Informática - U.C.A.B",
