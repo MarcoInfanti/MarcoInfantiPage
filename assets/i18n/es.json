@@ -132,7 +132,20 @@
     "DEMO_TABLE_COL_WEIGHT": "Peso (kg)",
     "DEMO_TABLE_PAGE_SIZE": "Filas por página:",
     "DEMO_TABLE_PAGE_OF": "de",
-    "DEMO_TABLE_GOTO": "Ir a página:"
+    "DEMO_TABLE_GOTO": "Ir a página:",
+    "DEMO_TABLE_DRAWER_CLOSE_ARIA": "Cerrar detalle del Pokémon",
+    "DEMO_TABLE_DRAWER_HEADING": "Detalle del Pokémon",
+    "DEMO_TABLE_DRAWER_COL_STATS": "Estadísticas base",
+    "DEMO_TABLE_DRAWER_COL_ABILITIES": "Habilidades",
+    "DEMO_TABLE_DRAWER_HIDDEN": "Oculta",
+    "DEMO_TABLE_DRAWER_LOADING": "Cargando detalles...",
+    "DEMO_TABLE_DRAWER_ERROR": "No se pudo cargar el detalle del Pokémon.",
+    "DEMO_TABLE_DRAWER_STAT_HP": "PS",
+    "DEMO_TABLE_DRAWER_STAT_ATTACK": "Ataque",
+    "DEMO_TABLE_DRAWER_STAT_DEFENSE": "Defensa",
+    "DEMO_TABLE_DRAWER_STAT_SPECIAL_ATTACK": "At. Especial",
+    "DEMO_TABLE_DRAWER_STAT_SPECIAL_DEFENSE": "Def. Especial",
+    "DEMO_TABLE_DRAWER_STAT_SPEED": "Velocidad"
   },
   "PERSONAL": {
     "TITLE": "Ingeniero en Informática - U.C.A.B",

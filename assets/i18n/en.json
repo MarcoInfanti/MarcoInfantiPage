@@ -132,7 +132,20 @@
     "DEMO_TABLE_COL_WEIGHT": "Weight (kg)",
     "DEMO_TABLE_PAGE_SIZE": "Rows per page:",
     "DEMO_TABLE_PAGE_OF": "of",
-    "DEMO_TABLE_GOTO": "Go to page:"
+    "DEMO_TABLE_GOTO": "Go to page:",
+    "DEMO_TABLE_DRAWER_CLOSE_ARIA": "Close Pokémon detail",
+    "DEMO_TABLE_DRAWER_HEADING": "Pokémon detail",
+    "DEMO_TABLE_DRAWER_COL_STATS": "Base stats",
+    "DEMO_TABLE_DRAWER_COL_ABILITIES": "Abilities",
+    "DEMO_TABLE_DRAWER_HIDDEN": "Hidden",
+    "DEMO_TABLE_DRAWER_LOADING": "Loading details...",
+    "DEMO_TABLE_DRAWER_ERROR": "Could not load Pokémon details.",
+    "DEMO_TABLE_DRAWER_STAT_HP": "HP",
+    "DEMO_TABLE_DRAWER_STAT_ATTACK": "Attack",
+    "DEMO_TABLE_DRAWER_STAT_DEFENSE": "Defense",
+    "DEMO_TABLE_DRAWER_STAT_SPECIAL_ATTACK": "Sp. Attack",
+    "DEMO_TABLE_DRAWER_STAT_SPECIAL_DEFENSE": "Sp. Defense",
+    "DEMO_TABLE_DRAWER_STAT_SPEED": "Speed"
   },
   "PERSONAL": {
     "TITLE": "Computer Engineer - U.C.A.B",
