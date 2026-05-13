@@ -136,7 +136,11 @@
   },
   "PERSONAL": {
     "TITLE": "Computer Engineer - U.C.A.B",
-    "BIO": "I'm a Computer Engineer (equivalence obtained in Spain) with experience as a MEAN stack developer. I also have broad knowledge of relational databases.",
+    "BIO_0": "Computer Engineer with a degree equivalence recognised in Spain",
+    "BIO_1": "5+ years of experience as a Front-End developer with Angular",
+    "BIO_2": "Specialised in MEAN stack: MongoDB, Express.js, Angular and Node.js",
+    "BIO_3": "Experience integrating and consuming RESTful services and REST APIs",
+    "BIO_4": "Solid knowledge of relational databases and SQL",
     "NATIONALITY": "Spanish"
   }
 }

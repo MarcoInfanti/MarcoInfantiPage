@@ -136,7 +136,11 @@
   },
   "PERSONAL": {
     "TITLE": "Ingeniero en Informática - U.C.A.B",
-    "BIO": "Soy ingeniero en Informática (Equivalencia en España) con experiencia como desarrollador MEAN stack. También poseo amplios conocimientos en bases de datos relacionales.",
+    "BIO_0": "Ingeniero en Informática con equivalencia  reconocida en España",
+    "BIO_1": "+5 años de experiencia como desarrollador Front-End con Angular",
+    "BIO_2": "Especializado en stack MEAN: MongoDB, Express.js, Angular y Node.js",
+    "BIO_3": "Experiencia integrando y consumiendo servicios RESTful y APIs REST",
+    "BIO_4": "Sólidos conocimientos en bases de datos relacionales y SQL",
     "NATIONALITY": "Español"
   }
 }
